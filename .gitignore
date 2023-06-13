@@ -1,0 +1,11 @@
+laravel/vendor/
+laravel/node_modules/
+laravel/public/storage/
+laravel/storage/*.key
+laravel/Homestead.json
+laravel/Homestead.yaml
+laravel/.env
+laravel/.env.backup
+laravel/.phpunit.result.cache
+laravel/.phpunit.cache
+laravel/composer.lock
