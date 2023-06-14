@@ -1,0 +1,90 @@
+XYZ_center
+uuid ()
+created_at timestamp
+is_active int(1)
+
+Point_registry
+p_id char (36)
+p_name varchar (60)
+p_address varchar (100)
+p_city varchar (60)
+p_zip tinyint (5)
+p_phone varchar (20)
+p_email varchar (70)
+p_referal_name varchar (100)
+p_website varchar (100)
+p_vat_number varchar (11)
+
+Services_registry
+id int(11) auto increment
+s_name varchar (25)
+s_code varchar (10)
+s_description text
+
+Xyz_price_lists
+p_id char (36)
+s_id int (11)
+p_price_list decimal (10,2)
+xyz_price decimal (10,2)
+
+xyz_center_registry
+p_id char (36)
+xyz_name varchar (60
+xyz_address varchar (100)
+xyz_city varchar (60)
+xyz_zip tinyint (5)
+xyz_phone varchar (20)
+xyz_email varchar (70)
+xyz_referal_name varchar (100)
+xyz_website varchar (100)
+xyz_vat_number varchar (11)
+
+view_web_services_registry 
+id int(11)
+s_name varchar (25)
+s_code varchar (10) 
+s_description text
+xyz_price decimal (10,2)
+
+
+view_xyz_sell_history
+id int(11) auto increment
+s_id int(11)
+p_id int(11)
+s_name varchar (25)
+s_code varchar (10)
+xyz_price decimal (10,2)
+p_price decimal (10,2)
+created_at tiemstamp
+        
+view_point_invoice
+p_name varchar (60)
+p_address varchar (100)
+p_city varchar (60)
+p_zip tinyint (5)
+p_email varchar (70)
+p_vat_number varchar (11)
+xyz_name varchar (60)
+xyz_address varchar (100)
+xyz_city varchar (60)
+xyz_zip tinyint (5)
+xyz_email varchar (70)
+xyz_vat_number varchar (11)
+id_purchase_point_history int(11)
+p_total_invoice_amount decimal(10,2)
+        
+view_point_purchase_history
+id int(11) auto increment
+s_id int(11)" 
+p_id int(11)"
+s_name varchar (25)
+s_code varchar (10)
+p_price decimal (10,2)
+created_at tiemstamp"
+       
+view_point_deails_invoice
+id int(11)
+s_name varchar (25)
+s_code varchar (10)
+s_description text
+p_price decimal (10,2)
