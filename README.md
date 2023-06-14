@@ -1,5 +1,3 @@
-# tecnasoft-challenge
-
 # Gestionale Web Azienda XYZ
 Questo progetto è stato creato per gestire le operazioni richieste dall'Azienda **XYZ**, in particolare la gestione delle anagrafiche dei servizi, dei costi e dei listini di vendita per singolo Point, l'attivazione/disattivazione della vendita di servizi su un determinato Point e la consultazione dello storico delle vendite di ogni articolo.
 
